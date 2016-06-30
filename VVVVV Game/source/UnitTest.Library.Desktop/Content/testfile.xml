@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Root>
+  <Integer name="Health" value="100"></Integer>
+  <Float name="Money" value="12.34"></Float>
+  <Float name="Money" value="56.78"></Float>
+  <Vector name="Position" value ="50 50 50 0"></Vector>
+  <Matrix name="FieldGrid" value ="1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1"></Matrix>
+  <String name="Name" value="Logan"></String>
+  <String name="Name" value="Paul"></String>
+  <Table name="InnerScope">
+    <String name="Class" value="Warrior"></String>
+    <Integer name="Rank" value ="5"></Integer>
+  </Table>
+  <Table name="InnerScope">
+    <String name="Class2" value="Warrior"></String>
+    <Integer name="Rank2" value ="5"></Integer>
+    <Table name="InnerInnerScope">
+      <Vector name="Position2" value ="0 0 0 50"></Vector>
+    </Table>
+  </Table>
+</Root>

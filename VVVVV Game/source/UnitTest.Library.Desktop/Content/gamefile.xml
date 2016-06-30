@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Universe>
+  <World name="Overworld">
+    <Integer name="AuxiliaryInt" value="55"></Integer>
+    <Sector name="Level1">
+      <Float name="AuxiliaryFloat" value="56.56"></Float>
+      <Entity name="DefaultEnemy" class="Enemy"></Entity>
+      <Entity name="HeavyEnemy" class="Enemy">
+        <Integer name="Health" value="200"></Integer>
+        <Vector name="Position" value="10 20 30 40"></Vector>
+        <Float name="DamageModifier" value="2.0"></Float>
+      </Entity>
+    </Sector>
+    <Sector name="Level2">
+      <Entity name="FlyingEnemy" class="Enemy">
+        <Vector name="Position" value =" 1000 1000 1000 1000"></Vector>
+        <Float name="Weight" value="0.05"></Float>
+      </Entity>
+      <Entity name="JustAnEntity" class="Entity"></Entity>
+    </Sector>
+  </World>
+</Universe>

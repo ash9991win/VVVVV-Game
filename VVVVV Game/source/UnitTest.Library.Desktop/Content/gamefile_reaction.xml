@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Universe>
+  <World>
+    <Integer name="CurrentLevel" value="0"/>
+    <Reaction class="ReactionAttributed">
+      <String name="Subtype" value="NewLevel"/>
+      <Action class="ActionUnloadSector"/>
+      <Action class="ActionLoadSector">
+        <String name="Target" value="CurrentLevel"/>
+      </Action>
+    </Reaction>
+    <Sector name="Level1">
+      <Action class="ActionIf">
+        <Integer name="Condition" value="1"/>
+        <Action class="ActionList" parentName="Then">
+          <Reaction class="ReactionAttributed">
+            <String name="Subtype" value="Jump"/>
+            <Action class="ActionIncrement">
+              <String name="Target" value="Height"/>
+            </Action>
+          </Reaction>
+          <Action class="ActionEvent">
+            <String name="AuxiliaryString" value="Hello"/>
+            <Float name="AuxiliaryFloat" value="12.34"/>
+          </Action>
+          <Action class="ActionEvent">
+            <String name="Subtype" value="Level1Done"/>
+            <Integer name="Delay" value="2000"/>
+          </Action>
+          <Action class="ActionDecrement">
+            <String name="Target" value="Condition"/>
+          </Action>
+        </Action>
+      </Action>
+      <Reaction class="ReactionAttributed">
+        <String name="Subtype" value="Level1Done"/>
+        <Action class="ActionList">
+          <Action class="ActionIncrement">
+            <String name="Target" value="CurrentLevel"/>
+          </Action>
+          <Action class="ActionEvent">
+            <String name="Subtype" value="NewLevel"/>
+          </Action>
+        </Action>
+      </Reaction>
+    </Sector>
+    <Sector name="Level2">
+      <Entity class="Enemy">
+        <Action class="ActionListWhile">
+          <Integer name="Condition" value="10"/>
+          <Action class="ActionDecrement">
+            <String name="Target" value="Condition"/>
+          </Action>
+          <Action class="ActionIf">
+            <Integer name="Condition" value="10"/>
+            <Action class="ActionList" parentName="Then">
+              <Action class="ActionDecrement">
+                <String name="Target" value="Condition"/>
+              </Action>
+            </Action>
+            <Action class="ActionList" parentName="Else">
+              <Action class="ActionEvent">
+                <String name="Subtype" value="Level2Done"/>
+              </Action>
+            </Action>
+          </Action>
+        </Action>
+      </Entity>
+      <Reaction class="ReactionAttributed">
+        <String name="Subtype" value="Level2Done"/>
+        <Action class="ActionList">
+          <Action class="ActionIncrement">
+            <String name="Target" value="CurrentLevel"/>
+          </Action>
+        </Action>
+      </Reaction>
+    </Sector>
+  </World>
+</Universe>

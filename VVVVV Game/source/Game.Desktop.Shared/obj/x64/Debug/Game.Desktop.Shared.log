@@ -1,0 +1,161 @@
+﻿Build started 5/3/2016 11:23:40 PM.
+     1>Project "C:\Dev\Cohort12-Private\Programming II\Final Project\Team A\FieaGameEngine\source\Game.Desktop.Shared\Game.Desktop.Shared.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\CL.exe /c /I"C:\Dev\Cohort12-Private\Programming II\Final Project\Team A\FieaGameEngine\build\packages\directxtk_desktop_2015.2016.4.26.1\build\native\../../build/native/include/" /I"C:\Dev\Cohort12-Private\Programming II\Final Project\Team A\FieaGameEngine\build\..\external\FreeType\include" /I"C:\Dev\Cohort12-Private\Programming II\Final Project\Team A\FieaGameEngine\build\..\source\Library.Desktop" /I"C:\Dev\Cohort12-Private\Programming II\Final Project\Team A\FieaGameEngine\build\..\external\gl3w\src" /I"C:\Dev\Cohort12-Private\Programming II\Final Project\Team A\FieaGameEngine\build\..\external\glfw\include" /I"C:\Dev\Cohort12-Private\Programming II\Final Project\Team A\FieaGameEngine\build\..\external\glm" /I"C:\Dev\Cohort12-Private\Programming II\Final Project\Team A\FieaGameEngine\build\..\external\Expat\include" /I"C:\Dev\Cohort12-Private\Programming II\Final Project\Team A\FieaGameEngine\build\..\external\soil\Simple OpenGL Image Library\src" /I"C:\Dev\Cohort12-Private\Programming II\Final Project\Team A\FieaGameEngine\build\..\external\Box2D\include_2015" /I"C:\Dev\Cohort12-Private\Programming II\Final Project\Team A\FieaGameEngine\build\..\external\FMOD\inc\\" /ZI /nologo /W4 /WX /sdl /Od /D HAS_DIRECTXTK /D _DEBUG /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Yc"pch.h" /Fp"C:\Dev\Cohort12-Private\Programming II\Final Project\Team A\FieaGameEngine\source\Game.Desktop.Shared\obj\x64\Debug\Game.Desktop.Shared.pch" /Fo"C:\Dev\Cohort12-Private\Programming II\Final Project\Team A\FieaGameEngine\source\Game.Desktop.Shared\obj\x64\Debug\\" /Fd"C:\Dev\Cohort12-Private\Programming II\Final Project\Team A\FieaGameEngine\source\Game.Desktop.Shared\obj\x64\Debug\Game.Desktop.Shared.pdb" /Gd /TP /wd4201 /errorReport:prompt pch.cpp
+         pch.cpp
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\CL.exe /c /I"C:\Dev\Cohort12-Private\Programming II\Final Project\Team A\FieaGameEngine\build\packages\directxtk_desktop_2015.2016.4.26.1\build\native\../../build/native/include/" /I"C:\Dev\Cohort12-Private\Programming II\Final Project\Team A\FieaGameEngine\build\..\external\FreeType\include" /I"C:\Dev\Cohort12-Private\Programming II\Final Project\Team A\FieaGameEngine\build\..\source\Library.Desktop" /I"C:\Dev\Cohort12-Private\Programming II\Final Project\Team A\FieaGameEngine\build\..\external\gl3w\src" /I"C:\Dev\Cohort12-Private\Programming II\Final Project\Team A\FieaGameEngine\build\..\external\glfw\include" /I"C:\Dev\Cohort12-Private\Programming II\Final Project\Team A\FieaGameEngine\build\..\external\glm" /I"C:\Dev\Cohort12-Private\Programming II\Final Project\Team A\FieaGameEngine\build\..\external\Expat\include" /I"C:\Dev\Cohort12-Private\Programming II\Final Project\Team A\FieaGameEngine\build\..\external\soil\Simple OpenGL Image Library\src" /I"C:\Dev\Cohort12-Private\Programming II\Final Project\Team A\FieaGameEngine\build\..\external\Box2D\include_2015" /I"C:\Dev\Cohort12-Private\Programming II\Final Project\Team A\FieaGameEngine\build\..\external\FMOD\inc\\" /ZI /nologo /W4 /WX /sdl /Od /D HAS_DIRECTXTK /D _DEBUG /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Yu"pch.h" /Fp"C:\Dev\Cohort12-Private\Programming II\Final Project\Team A\FieaGameEngine\source\Game.Desktop.Shared\obj\x64\Debug\Game.Desktop.Shared.pch" /Fo"C:\Dev\Cohort12-Private\Programming II\Final Project\Team A\FieaGameEngine\source\Game.Desktop.Shared\obj\x64\Debug\\" /Fd"C:\Dev\Cohort12-Private\Programming II\Final Project\Team A\FieaGameEngine\source\Game.Desktop.Shared\obj\x64\Debug\Game.Desktop.Shared.pdb" /Gd /TP /wd4201 /errorReport:prompt Animation.cpp InputBundle.cpp ReactionForInput.cpp SoundManager.cpp
+         SoundManager.cpp
+         ReactionForInput.cpp
+         InputBundle.cpp
+         Animation.cpp
+         Generating Code...
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\Lib.exe /OUT:"C:\Dev\Cohort12-Private\Programming II\Final Project\Team A\FieaGameEngine\source\Game.Desktop.Shared\bin\x64\Debug\Game.Desktop.Shared.lib" /LIBPATH:"C:\Program Files (x86)\Visual Leak Detector\lib\Win64" /NOLOGO /MACHINE:X64 "C:\Dev\Cohort12-Private\Programming II\Final Project\Team A\FieaGameEngine\source\Game.Desktop.Shared\obj\x64\Debug\Animation.obj"
+         "C:\Dev\Cohort12-Private\Programming II\Final Project\Team A\FieaGameEngine\source\Game.Desktop.Shared\obj\x64\Debug\InputBundle.obj"
+         "C:\Dev\Cohort12-Private\Programming II\Final Project\Team A\FieaGameEngine\source\Game.Desktop.Shared\obj\x64\Debug\pch.obj"
+         "C:\Dev\Cohort12-Private\Programming II\Final Project\Team A\FieaGameEngine\source\Game.Desktop.Shared\obj\x64\Debug\ReactionForInput.obj"
+         "C:\Dev\Cohort12-Private\Programming II\Final Project\Team A\FieaGameEngine\source\Game.Desktop.Shared\obj\x64\Debug\SoundManager.obj"
+         Game.Desktop.Shared.vcxproj -> C:\Dev\Cohort12-Private\Programming II\Final Project\Team A\FieaGameEngine\source\Game.Desktop.Shared\bin\x64\Debug\Game.Desktop.Shared.lib
+       PostBuildEvent:
+         IF EXIST "C:\Dev\Cohort12-Private\Programming II\Final Project\Team A\FieaGameEngine\build\..\Content" xcopy /E /Y "C:\Dev\Cohort12-Private\Programming II\Final Project\Team A\FieaGameEngine\build\..\Content" "C:\Dev\Cohort12-Private\Programming II\Final Project\Team A\FieaGameEngine\source\Game.Desktop.Shared\bin\x64\Debug\Content\"
+         IF EXIST "C:\Dev\Cohort12-Private\Programming II\Final Project\Team A\FieaGameEngine\build\..\Content" xcopy /E /Y "C:\Dev\Cohort12-Private\Programming II\Final Project\Team A\FieaGameEngine\build\..\Content" "C:\Dev\Cohort12-Private\Programming II\Final Project\Team A\FieaGameEngine\source\Game.Desktop.Shared\Content\"
+         :VCEnd
+         C:\Dev\Cohort12-Private\Programming II\Final Project\Team A\FieaGameEngine\build\..\Content\characters.png
+         C:\Dev\Cohort12-Private\Programming II\Final Project\Team A\FieaGameEngine\build\..\Content\level1.txt
+         C:\Dev\Cohort12-Private\Programming II\Final Project\Team A\FieaGameEngine\build\..\Content\level2.txt
+         C:\Dev\Cohort12-Private\Programming II\Final Project\Team A\FieaGameEngine\build\..\Content\level3.txt
+         C:\Dev\Cohort12-Private\Programming II\Final Project\Team A\FieaGameEngine\build\..\Content\level4.txt
+         C:\Dev\Cohort12-Private\Programming II\Final Project\Team A\FieaGameEngine\build\..\Content\level5.txt
+         C:\Dev\Cohort12-Private\Programming II\Final Project\Team A\FieaGameEngine\build\..\Content\level6.txt
+         C:\Dev\Cohort12-Private\Programming II\Final Project\Team A\FieaGameEngine\build\..\Content\ModerDOS.ttf
+         C:\Dev\Cohort12-Private\Programming II\Final Project\Team A\FieaGameEngine\build\..\Content\PostProcess.ps
+         C:\Dev\Cohort12-Private\Programming II\Final Project\Team A\FieaGameEngine\build\..\Content\PostProcess.vs
+         C:\Dev\Cohort12-Private\Programming II\Final Project\Team A\FieaGameEngine\build\..\Content\sampleLevel.txt
+         C:\Dev\Cohort12-Private\Programming II\Final Project\Team A\FieaGameEngine\build\..\Content\sampleLevel2.txt
+         C:\Dev\Cohort12-Private\Programming II\Final Project\Team A\FieaGameEngine\build\..\Content\SoundLibrary.xml
+         C:\Dev\Cohort12-Private\Programming II\Final Project\Team A\FieaGameEngine\build\..\Content\SpriteShader.ps
+         C:\Dev\Cohort12-Private\Programming II\Final Project\Team A\FieaGameEngine\build\..\Content\SpriteShader.vs
+         C:\Dev\Cohort12-Private\Programming II\Final Project\Team A\FieaGameEngine\build\..\Content\TextShader.ps
+         C:\Dev\Cohort12-Private\Programming II\Final Project\Team A\FieaGameEngine\build\..\Content\TextShader.vs
+         C:\Dev\Cohort12-Private\Programming II\Final Project\Team A\FieaGameEngine\build\..\Content\Tiles.png
+         C:\Dev\Cohort12-Private\Programming II\Final Project\Team A\FieaGameEngine\build\..\Content\title.png
+         C:\Dev\Cohort12-Private\Programming II\Final Project\Team A\FieaGameEngine\build\..\Content\titledx.png
+         C:\Dev\Cohort12-Private\Programming II\Final Project\Team A\FieaGameEngine\build\..\Content\titleScreen.txt
+         C:\Dev\Cohort12-Private\Programming II\Final Project\Team A\FieaGameEngine\build\..\Content\Sounds\BGM\MyVeryFirstLaserGun.mp3
+         C:\Dev\Cohort12-Private\Programming II\Final Project\Team A\FieaGameEngine\build\..\Content\Sounds\BGM\PartyEveryNight.mp3
+         C:\Dev\Cohort12-Private\Programming II\Final Project\Team A\FieaGameEngine\build\..\Content\Sounds\BGM\PushingOnwards.mp3
+         C:\Dev\Cohort12-Private\Programming II\Final Project\Team A\FieaGameEngine\build\..\Content\Sounds\SFX\Death.mp3
+         C:\Dev\Cohort12-Private\Programming II\Final Project\Team A\FieaGameEngine\build\..\Content\Sounds\SFX\Flip.mp3
+         C:\Dev\Cohort12-Private\Programming II\Final Project\Team A\FieaGameEngine\build\..\Content\TileXML\Barrier.xml
+         C:\Dev\Cohort12-Private\Programming II\Final Project\Team A\FieaGameEngine\build\..\Content\TileXML\EmptySpace.xml
+         C:\Dev\Cohort12-Private\Programming II\Final Project\Team A\FieaGameEngine\build\..\Content\TileXML\EnemyDown.xml
+         C:\Dev\Cohort12-Private\Programming II\Final Project\Team A\FieaGameEngine\build\..\Content\TileXML\EnemyLeft.xml
+         C:\Dev\Cohort12-Private\Programming II\Final Project\Team A\FieaGameEngine\build\..\Content\TileXML\EnemyRight.xml
+         C:\Dev\Cohort12-Private\Programming II\Final Project\Team A\FieaGameEngine\build\..\Content\TileXML\EnemyUp.xml
+         C:\Dev\Cohort12-Private\Programming II\Final Project\Team A\FieaGameEngine\build\..\Content\TileXML\Exit.xml
+         C:\Dev\Cohort12-Private\Programming II\Final Project\Team A\FieaGameEngine\build\..\Content\TileXML\GravityFlipHorizontal.xml
+         C:\Dev\Cohort12-Private\Programming II\Final Project\Team A\FieaGameEngine\build\..\Content\TileXML\GravityFlipVertical.xml
+         C:\Dev\Cohort12-Private\Programming II\Final Project\Team A\FieaGameEngine\build\..\Content\TileXML\LevelConfig.xml
+         C:\Dev\Cohort12-Private\Programming II\Final Project\Team A\FieaGameEngine\build\..\Content\TileXML\MovingPlatformDown.xml
+         C:\Dev\Cohort12-Private\Programming II\Final Project\Team A\FieaGameEngine\build\..\Content\TileXML\MovingPlatformLeft.xml
+         C:\Dev\Cohort12-Private\Programming II\Final Project\Team A\FieaGameEngine\build\..\Content\TileXML\MovingPlatformRight.xml
+         C:\Dev\Cohort12-Private\Programming II\Final Project\Team A\FieaGameEngine\build\..\Content\TileXML\MovingPlatformUp.xml
+         C:\Dev\Cohort12-Private\Programming II\Final Project\Team A\FieaGameEngine\build\..\Content\TileXML\Player.xml
+         C:\Dev\Cohort12-Private\Programming II\Final Project\Team A\FieaGameEngine\build\..\Content\TileXML\SolidBlock1.xml
+         C:\Dev\Cohort12-Private\Programming II\Final Project\Team A\FieaGameEngine\build\..\Content\TileXML\SolidBlock1Bottom.xml
+         C:\Dev\Cohort12-Private\Programming II\Final Project\Team A\FieaGameEngine\build\..\Content\TileXML\SolidBlock1CornerBottomLeft1.xml
+         C:\Dev\Cohort12-Private\Programming II\Final Project\Team A\FieaGameEngine\build\..\Content\TileXML\SolidBlock1CornerBottomLeft2.xml
+         C:\Dev\Cohort12-Private\Programming II\Final Project\Team A\FieaGameEngine\build\..\Content\TileXML\SolidBlock1CornerBottomRight1.xml
+         C:\Dev\Cohort12-Private\Programming II\Final Project\Team A\FieaGameEngine\build\..\Content\TileXML\SolidBlock1CornerBottomRight2.xml
+         C:\Dev\Cohort12-Private\Programming II\Final Project\Team A\FieaGameEngine\build\..\Content\TileXML\SolidBlock1CornerTopLeft1.xml
+         C:\Dev\Cohort12-Private\Programming II\Final Project\Team A\FieaGameEngine\build\..\Content\TileXML\SolidBlock1CornerTopLeft2.xml
+         C:\Dev\Cohort12-Private\Programming II\Final Project\Team A\FieaGameEngine\build\..\Content\TileXML\SolidBlock1CornerTopRight1.xml
+         C:\Dev\Cohort12-Private\Programming II\Final Project\Team A\FieaGameEngine\build\..\Content\TileXML\SolidBlock1CornerTopRight2.xml
+         C:\Dev\Cohort12-Private\Programming II\Final Project\Team A\FieaGameEngine\build\..\Content\TileXML\SolidBlock1Filler.xml
+         C:\Dev\Cohort12-Private\Programming II\Final Project\Team A\FieaGameEngine\build\..\Content\TileXML\SolidBlock1Horizontal.xml
+         C:\Dev\Cohort12-Private\Programming II\Final Project\Team A\FieaGameEngine\build\..\Content\TileXML\SolidBlock1HorizontalBottom.xml
+         C:\Dev\Cohort12-Private\Programming II\Final Project\Team A\FieaGameEngine\build\..\Content\TileXML\SolidBlock1HorizontalTop.xml
+         C:\Dev\Cohort12-Private\Programming II\Final Project\Team A\FieaGameEngine\build\..\Content\TileXML\SolidBlock1Vertical.xml
+         C:\Dev\Cohort12-Private\Programming II\Final Project\Team A\FieaGameEngine\build\..\Content\TileXML\SolidBlock1VerticalLeft.xml
+         C:\Dev\Cohort12-Private\Programming II\Final Project\Team A\FieaGameEngine\build\..\Content\TileXML\SolidBlock1VerticalRight.xml
+         C:\Dev\Cohort12-Private\Programming II\Final Project\Team A\FieaGameEngine\build\..\Content\TileXML\SolidBlock2.xml
+         C:\Dev\Cohort12-Private\Programming II\Final Project\Team A\FieaGameEngine\build\..\Content\TileXML\SolidBlock3.xml
+         C:\Dev\Cohort12-Private\Programming II\Final Project\Team A\FieaGameEngine\build\..\Content\TileXML\SpikeDown.xml
+         C:\Dev\Cohort12-Private\Programming II\Final Project\Team A\FieaGameEngine\build\..\Content\TileXML\SpikeLeft.xml
+         C:\Dev\Cohort12-Private\Programming II\Final Project\Team A\FieaGameEngine\build\..\Content\TileXML\SpikeRight.xml
+         C:\Dev\Cohort12-Private\Programming II\Final Project\Team A\FieaGameEngine\build\..\Content\TileXML\SpikeUp.xml
+         C:\Dev\Cohort12-Private\Programming II\Final Project\Team A\FieaGameEngine\build\..\Content\TileXML\TileSymbols.xml
+         C:\Dev\Cohort12-Private\Programming II\Final Project\Team A\FieaGameEngine\build\..\Content\TileXML\TitleScreen.xml
+         66 File(s) copied
+         C:\Dev\Cohort12-Private\Programming II\Final Project\Team A\FieaGameEngine\build\..\Content\characters.png
+         C:\Dev\Cohort12-Private\Programming II\Final Project\Team A\FieaGameEngine\build\..\Content\level1.txt
+         C:\Dev\Cohort12-Private\Programming II\Final Project\Team A\FieaGameEngine\build\..\Content\level2.txt
+         C:\Dev\Cohort12-Private\Programming II\Final Project\Team A\FieaGameEngine\build\..\Content\level3.txt
+         C:\Dev\Cohort12-Private\Programming II\Final Project\Team A\FieaGameEngine\build\..\Content\level4.txt
+         C:\Dev\Cohort12-Private\Programming II\Final Project\Team A\FieaGameEngine\build\..\Content\level5.txt
+         C:\Dev\Cohort12-Private\Programming II\Final Project\Team A\FieaGameEngine\build\..\Content\level6.txt
+         C:\Dev\Cohort12-Private\Programming II\Final Project\Team A\FieaGameEngine\build\..\Content\ModerDOS.ttf
+         C:\Dev\Cohort12-Private\Programming II\Final Project\Team A\FieaGameEngine\build\..\Content\PostProcess.ps
+         C:\Dev\Cohort12-Private\Programming II\Final Project\Team A\FieaGameEngine\build\..\Content\PostProcess.vs
+         C:\Dev\Cohort12-Private\Programming II\Final Project\Team A\FieaGameEngine\build\..\Content\sampleLevel.txt
+         C:\Dev\Cohort12-Private\Programming II\Final Project\Team A\FieaGameEngine\build\..\Content\sampleLevel2.txt
+         C:\Dev\Cohort12-Private\Programming II\Final Project\Team A\FieaGameEngine\build\..\Content\SoundLibrary.xml
+         C:\Dev\Cohort12-Private\Programming II\Final Project\Team A\FieaGameEngine\build\..\Content\SpriteShader.ps
+         C:\Dev\Cohort12-Private\Programming II\Final Project\Team A\FieaGameEngine\build\..\Content\SpriteShader.vs
+         C:\Dev\Cohort12-Private\Programming II\Final Project\Team A\FieaGameEngine\build\..\Content\TextShader.ps
+         C:\Dev\Cohort12-Private\Programming II\Final Project\Team A\FieaGameEngine\build\..\Content\TextShader.vs
+         C:\Dev\Cohort12-Private\Programming II\Final Project\Team A\FieaGameEngine\build\..\Content\Tiles.png
+         C:\Dev\Cohort12-Private\Programming II\Final Project\Team A\FieaGameEngine\build\..\Content\title.png
+         C:\Dev\Cohort12-Private\Programming II\Final Project\Team A\FieaGameEngine\build\..\Content\titledx.png
+         C:\Dev\Cohort12-Private\Programming II\Final Project\Team A\FieaGameEngine\build\..\Content\titleScreen.txt
+         C:\Dev\Cohort12-Private\Programming II\Final Project\Team A\FieaGameEngine\build\..\Content\Sounds\BGM\MyVeryFirstLaserGun.mp3
+         C:\Dev\Cohort12-Private\Programming II\Final Project\Team A\FieaGameEngine\build\..\Content\Sounds\BGM\PartyEveryNight.mp3
+         C:\Dev\Cohort12-Private\Programming II\Final Project\Team A\FieaGameEngine\build\..\Content\Sounds\BGM\PushingOnwards.mp3
+         C:\Dev\Cohort12-Private\Programming II\Final Project\Team A\FieaGameEngine\build\..\Content\Sounds\SFX\Death.mp3
+         C:\Dev\Cohort12-Private\Programming II\Final Project\Team A\FieaGameEngine\build\..\Content\Sounds\SFX\Flip.mp3
+         C:\Dev\Cohort12-Private\Programming II\Final Project\Team A\FieaGameEngine\build\..\Content\TileXML\Barrier.xml
+         C:\Dev\Cohort12-Private\Programming II\Final Project\Team A\FieaGameEngine\build\..\Content\TileXML\EmptySpace.xml
+         C:\Dev\Cohort12-Private\Programming II\Final Project\Team A\FieaGameEngine\build\..\Content\TileXML\EnemyDown.xml
+         C:\Dev\Cohort12-Private\Programming II\Final Project\Team A\FieaGameEngine\build\..\Content\TileXML\EnemyLeft.xml
+         C:\Dev\Cohort12-Private\Programming II\Final Project\Team A\FieaGameEngine\build\..\Content\TileXML\EnemyRight.xml
+         C:\Dev\Cohort12-Private\Programming II\Final Project\Team A\FieaGameEngine\build\..\Content\TileXML\EnemyUp.xml
+         C:\Dev\Cohort12-Private\Programming II\Final Project\Team A\FieaGameEngine\build\..\Content\TileXML\Exit.xml
+         C:\Dev\Cohort12-Private\Programming II\Final Project\Team A\FieaGameEngine\build\..\Content\TileXML\GravityFlipHorizontal.xml
+         C:\Dev\Cohort12-Private\Programming II\Final Project\Team A\FieaGameEngine\build\..\Content\TileXML\GravityFlipVertical.xml
+         C:\Dev\Cohort12-Private\Programming II\Final Project\Team A\FieaGameEngine\build\..\Content\TileXML\LevelConfig.xml
+         C:\Dev\Cohort12-Private\Programming II\Final Project\Team A\FieaGameEngine\build\..\Content\TileXML\MovingPlatformDown.xml
+         C:\Dev\Cohort12-Private\Programming II\Final Project\Team A\FieaGameEngine\build\..\Content\TileXML\MovingPlatformLeft.xml
+         C:\Dev\Cohort12-Private\Programming II\Final Project\Team A\FieaGameEngine\build\..\Content\TileXML\MovingPlatformRight.xml
+         C:\Dev\Cohort12-Private\Programming II\Final Project\Team A\FieaGameEngine\build\..\Content\TileXML\MovingPlatformUp.xml
+         C:\Dev\Cohort12-Private\Programming II\Final Project\Team A\FieaGameEngine\build\..\Content\TileXML\Player.xml
+         C:\Dev\Cohort12-Private\Programming II\Final Project\Team A\FieaGameEngine\build\..\Content\TileXML\SolidBlock1.xml
+         C:\Dev\Cohort12-Private\Programming II\Final Project\Team A\FieaGameEngine\build\..\Content\TileXML\SolidBlock1Bottom.xml
+         C:\Dev\Cohort12-Private\Programming II\Final Project\Team A\FieaGameEngine\build\..\Content\TileXML\SolidBlock1CornerBottomLeft1.xml
+         C:\Dev\Cohort12-Private\Programming II\Final Project\Team A\FieaGameEngine\build\..\Content\TileXML\SolidBlock1CornerBottomLeft2.xml
+         C:\Dev\Cohort12-Private\Programming II\Final Project\Team A\FieaGameEngine\build\..\Content\TileXML\SolidBlock1CornerBottomRight1.xml
+         C:\Dev\Cohort12-Private\Programming II\Final Project\Team A\FieaGameEngine\build\..\Content\TileXML\SolidBlock1CornerBottomRight2.xml
+         C:\Dev\Cohort12-Private\Programming II\Final Project\Team A\FieaGameEngine\build\..\Content\TileXML\SolidBlock1CornerTopLeft1.xml
+         C:\Dev\Cohort12-Private\Programming II\Final Project\Team A\FieaGameEngine\build\..\Content\TileXML\SolidBlock1CornerTopLeft2.xml
+         C:\Dev\Cohort12-Private\Programming II\Final Project\Team A\FieaGameEngine\build\..\Content\TileXML\SolidBlock1CornerTopRight1.xml
+         C:\Dev\Cohort12-Private\Programming II\Final Project\Team A\FieaGameEngine\build\..\Content\TileXML\SolidBlock1CornerTopRight2.xml
+         C:\Dev\Cohort12-Private\Programming II\Final Project\Team A\FieaGameEngine\build\..\Content\TileXML\SolidBlock1Filler.xml
+         C:\Dev\Cohort12-Private\Programming II\Final Project\Team A\FieaGameEngine\build\..\Content\TileXML\SolidBlock1Horizontal.xml
+         C:\Dev\Cohort12-Private\Programming II\Final Project\Team A\FieaGameEngine\build\..\Content\TileXML\SolidBlock1HorizontalBottom.xml
+         C:\Dev\Cohort12-Private\Programming II\Final Project\Team A\FieaGameEngine\build\..\Content\TileXML\SolidBlock1HorizontalTop.xml
+         C:\Dev\Cohort12-Private\Programming II\Final Project\Team A\FieaGameEngine\build\..\Content\TileXML\SolidBlock1Vertical.xml
+         C:\Dev\Cohort12-Private\Programming II\Final Project\Team A\FieaGameEngine\build\..\Content\TileXML\SolidBlock1VerticalLeft.xml
+         C:\Dev\Cohort12-Private\Programming II\Final Project\Team A\FieaGameEngine\build\..\Content\TileXML\SolidBlock1VerticalRight.xml
+         C:\Dev\Cohort12-Private\Programming II\Final Project\Team A\FieaGameEngine\build\..\Content\TileXML\SolidBlock2.xml
+         C:\Dev\Cohort12-Private\Programming II\Final Project\Team A\FieaGameEngine\build\..\Content\TileXML\SolidBlock3.xml
+         C:\Dev\Cohort12-Private\Programming II\Final Project\Team A\FieaGameEngine\build\..\Content\TileXML\SpikeDown.xml
+         C:\Dev\Cohort12-Private\Programming II\Final Project\Team A\FieaGameEngine\build\..\Content\TileXML\SpikeLeft.xml
+         C:\Dev\Cohort12-Private\Programming II\Final Project\Team A\FieaGameEngine\build\..\Content\TileXML\SpikeRight.xml
+         C:\Dev\Cohort12-Private\Programming II\Final Project\Team A\FieaGameEngine\build\..\Content\TileXML\SpikeUp.xml
+         C:\Dev\Cohort12-Private\Programming II\Final Project\Team A\FieaGameEngine\build\..\Content\TileXML\TileSymbols.xml
+         C:\Dev\Cohort12-Private\Programming II\Final Project\Team A\FieaGameEngine\build\..\Content\TileXML\TitleScreen.xml
+         66 File(s) copied
+     1>Done Building Project "C:\Dev\Cohort12-Private\Programming II\Final Project\Team A\FieaGameEngine\source\Game.Desktop.Shared\Game.Desktop.Shared.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:03.36

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Universe>
+  <World>
+    <Action class="ActionListWhile">
+      <Integer name="Condition" value="0"/>
+      <Action class="ActionDecrement">
+        <String name="Target" value="Condition"/>
+      </Action>
+    </Action>
+    <Sector>
+      <String name="Name" value="Level1"/>
+      <Entity name="HeavyEnemy" class="Enemy">
+        <Integer name="Health" value="200"/>
+        <Vector name="Position" value="10 20 30 40"/>
+        <Float name="DamageModifier" value="2.0"/>
+        <Action class="ActionIf" name="TestIf">
+          <Integer name="Condition" value="0"/>
+          <Action class="ActionList" parentName="Then">
+            <Action class="ActionDecrement">
+              <String name="Target" value="Condition"/>
+            </Action>
+          </Action>
+          <Action class="ActionList" parentName="Else">
+            <Action class="ActionIncrement">
+              <String name="Target" value="Condition"/>
+            </Action>
+          </Action>
+        </Action>
+      </Entity>
+    </Sector>
+    <Sector>
+      <Entity class="Enemy">
+        <Vector name="Position" value =" 1000 1000 1000 1000"/>
+        <Float name="Weight" value="0.05"/>
+        <Action class="ActionListWhile">
+          <Integer name="Condition" value="10"/>
+          <Action class="ActionDecrement">
+            <String name="Target" value="Condition"/>
+          </Action>
+        </Action>
+      </Entity>
+      <Entity class="Entity">
+        <Action class="ActionIf">
+          <Integer name="Condition" value="1"/>
+          <Action class="ActionList" parentName="Then">
+            <Action class="ActionDecrement">
+              <String name="Target" value="Condition"/>
+            </Action>
+          </Action>
+        </Action>
+      </Entity>
+    </Sector>
+  </World>
+</Universe>

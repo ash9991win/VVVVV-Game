@@ -1,0 +1,111 @@
+﻿Build started 5/3/2016 11:23:43 PM.
+     1>Project "C:\Dev\Cohort12-Private\Programming II\Final Project\Team A\FieaGameEngine\source\Library.Desktop\Library.Desktop.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\CL.exe /c /I"C:\Dev\Cohort12-Private\Programming II\Final Project\Team A\FieaGameEngine\build\..\external" /I"C:\Dev\Cohort12-Private\Programming II\Final Project\Team A\FieaGameEngine\build\..\external\glm" /I"C:\Dev\Cohort12-Private\Programming II\Final Project\Team A\FieaGameEngine\build\..\external\Expat\include" /I"C:\Dev\Cohort12-Private\Programming II\Final Project\Team A\FieaGameEngine\build\..\external\Box2D\include_2015" /I"C:\Dev\Cohort12-Private\Programming II\Final Project\Team A\FieaGameEngine\build\..\source\Game.Desktop.Shared" /I"C:\Program Files (x86)\Visual Leak Detector\include" /ZI /nologo /W4 /WX /sdl /Od /D _DEBUG /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Yc"pch.h" /Fp"C:\Dev\Cohort12-Private\Programming II\Final Project\Team A\FieaGameEngine\source\Library.Desktop\obj\x64\Debug\Library.Desktop.pch" /Fo"C:\Dev\Cohort12-Private\Programming II\Final Project\Team A\FieaGameEngine\source\Library.Desktop\obj\x64\Debug\\" /Fd"C:\Dev\Cohort12-Private\Programming II\Final Project\Team A\FieaGameEngine\source\Library.Desktop\obj\x64\Debug\Library.Desktop.pdb" /Gd /TP /wd4201 /errorReport:prompt pch.cpp
+         pch.cpp
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\CL.exe /c /I"C:\Dev\Cohort12-Private\Programming II\Final Project\Team A\FieaGameEngine\build\..\external" /I"C:\Dev\Cohort12-Private\Programming II\Final Project\Team A\FieaGameEngine\build\..\external\glm" /I"C:\Dev\Cohort12-Private\Programming II\Final Project\Team A\FieaGameEngine\build\..\external\Expat\include" /I"C:\Dev\Cohort12-Private\Programming II\Final Project\Team A\FieaGameEngine\build\..\external\Box2D\include_2015" /I"C:\Dev\Cohort12-Private\Programming II\Final Project\Team A\FieaGameEngine\build\..\source\Game.Desktop.Shared" /I"C:\Program Files (x86)\Visual Leak Detector\include" /ZI /nologo /W4 /WX /sdl /Od /D _DEBUG /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Yu"pch.h" /Fp"C:\Dev\Cohort12-Private\Programming II\Final Project\Team A\FieaGameEngine\source\Library.Desktop\obj\x64\Debug\Library.Desktop.pch" /Fo"C:\Dev\Cohort12-Private\Programming II\Final Project\Team A\FieaGameEngine\source\Library.Desktop\obj\x64\Debug\\" /Fd"C:\Dev\Cohort12-Private\Programming II\Final Project\Team A\FieaGameEngine\source\Library.Desktop\obj\x64\Debug\Library.Desktop.pdb" /Gd /TP /wd4201 /errorReport:prompt Action.cpp ActionContainer.cpp ActionDecrement.cpp ActionIf.cpp ActionIncrement.cpp ActionList.cpp ActionListWhile.cpp ActionLoadSector.cpp ActionUnloadSector.cpp ActionXmlParseHelper.cpp Attributed.cpp Datum.cpp DefaultIncrementFunctor.cpp DoubleSizeIncrementFunctor.cpp Entity.cpp EntityXmlParseHelper.cpp EventPublisher.cpp EventQueue.cpp FloatXmlParseHelper.cpp FooSharedData.cpp GameClock.cpp GameTime.cpp IntegerXmlParseHelper.cpp IXmlParseHelper.cpp LevelConfigXmlParseHelper.cpp LevelSharedData.cpp MatrixXmlParseHelper.cpp Reaction.cpp ReactionXmlParseHelper.cpp Scope.cpp Sector.cpp SectorXmlParseHelper.cpp SoundParser.cpp SoundSharedData.cpp SoundXmlParseHelper.cpp StringXmlParseHelper.cpp SymbolSharedData.cpp TableSharedData.cpp TableXmlParseHelper.cpp TileXmlParseHelper.cpp VectorXmlParseHelper.cpp World.cpp WorldState.cpp WorldXmlParseHelper.cpp XmlParseMaster.cpp ZeroIncrementFunctor.cpp
+         ZeroIncrementFunctor.cpp
+         XmlParseMaster.cpp
+         WorldXmlParseHelper.cpp
+         WorldState.cpp
+         World.cpp
+         VectorXmlParseHelper.cpp
+         TileXmlParseHelper.cpp
+         TableXmlParseHelper.cpp
+         TableSharedData.cpp
+         SymbolSharedData.cpp
+         StringXmlParseHelper.cpp
+         SoundXmlParseHelper.cpp
+         SoundSharedData.cpp
+         SoundParser.cpp
+         SectorXmlParseHelper.cpp
+         Sector.cpp
+         Scope.cpp
+         ReactionXmlParseHelper.cpp
+         Reaction.cpp
+         MatrixXmlParseHelper.cpp
+         Generating Code...
+         Compiling...
+         LevelSharedData.cpp
+         LevelConfigXmlParseHelper.cpp
+         IXmlParseHelper.cpp
+         IntegerXmlParseHelper.cpp
+         GameTime.cpp
+         GameClock.cpp
+         FooSharedData.cpp
+         FloatXmlParseHelper.cpp
+         EventQueue.cpp
+         EventPublisher.cpp
+         EntityXmlParseHelper.cpp
+         Entity.cpp
+         DoubleSizeIncrementFunctor.cpp
+         DefaultIncrementFunctor.cpp
+         Datum.cpp
+         Attributed.cpp
+         ActionXmlParseHelper.cpp
+         ActionUnloadSector.cpp
+         ActionLoadSector.cpp
+         ActionListWhile.cpp
+         Generating Code...
+         Compiling...
+         ActionList.cpp
+         ActionIncrement.cpp
+         ActionIf.cpp
+         ActionDecrement.cpp
+         ActionContainer.cpp
+         Action.cpp
+         Generating Code...
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\Lib.exe /OUT:"C:\Dev\Cohort12-Private\Programming II\Final Project\Team A\FieaGameEngine\source\Library.Desktop\bin\x64\Debug\Library.Desktop.lib" /LIBPATH:"C:\Program Files (x86)\Visual Leak Detector\lib\Win64" /NOLOGO /MACHINE:X64 "C:\Dev\Cohort12-Private\Programming II\Final Project\Team A\FieaGameEngine\source\Library.Desktop\obj\x64\Debug\Action.obj"
+         "C:\Dev\Cohort12-Private\Programming II\Final Project\Team A\FieaGameEngine\source\Library.Desktop\obj\x64\Debug\ActionContainer.obj"
+         "C:\Dev\Cohort12-Private\Programming II\Final Project\Team A\FieaGameEngine\source\Library.Desktop\obj\x64\Debug\ActionDecrement.obj"
+         "C:\Dev\Cohort12-Private\Programming II\Final Project\Team A\FieaGameEngine\source\Library.Desktop\obj\x64\Debug\ActionIf.obj"
+         "C:\Dev\Cohort12-Private\Programming II\Final Project\Team A\FieaGameEngine\source\Library.Desktop\obj\x64\Debug\ActionIncrement.obj"
+         "C:\Dev\Cohort12-Private\Programming II\Final Project\Team A\FieaGameEngine\source\Library.Desktop\obj\x64\Debug\ActionList.obj"
+         "C:\Dev\Cohort12-Private\Programming II\Final Project\Team A\FieaGameEngine\source\Library.Desktop\obj\x64\Debug\ActionListWhile.obj"
+         "C:\Dev\Cohort12-Private\Programming II\Final Project\Team A\FieaGameEngine\source\Library.Desktop\obj\x64\Debug\ActionLoadSector.obj"
+         "C:\Dev\Cohort12-Private\Programming II\Final Project\Team A\FieaGameEngine\source\Library.Desktop\obj\x64\Debug\ActionUnloadSector.obj"
+         "C:\Dev\Cohort12-Private\Programming II\Final Project\Team A\FieaGameEngine\source\Library.Desktop\obj\x64\Debug\ActionXmlParseHelper.obj"
+         "C:\Dev\Cohort12-Private\Programming II\Final Project\Team A\FieaGameEngine\source\Library.Desktop\obj\x64\Debug\Attributed.obj"
+         "C:\Dev\Cohort12-Private\Programming II\Final Project\Team A\FieaGameEngine\source\Library.Desktop\obj\x64\Debug\Datum.obj"
+         "C:\Dev\Cohort12-Private\Programming II\Final Project\Team A\FieaGameEngine\source\Library.Desktop\obj\x64\Debug\DefaultIncrementFunctor.obj"
+         "C:\Dev\Cohort12-Private\Programming II\Final Project\Team A\FieaGameEngine\source\Library.Desktop\obj\x64\Debug\DoubleSizeIncrementFunctor.obj"
+         "C:\Dev\Cohort12-Private\Programming II\Final Project\Team A\FieaGameEngine\source\Library.Desktop\obj\x64\Debug\Entity.obj"
+         "C:\Dev\Cohort12-Private\Programming II\Final Project\Team A\FieaGameEngine\source\Library.Desktop\obj\x64\Debug\EntityXmlParseHelper.obj"
+         "C:\Dev\Cohort12-Private\Programming II\Final Project\Team A\FieaGameEngine\source\Library.Desktop\obj\x64\Debug\EventPublisher.obj"
+         "C:\Dev\Cohort12-Private\Programming II\Final Project\Team A\FieaGameEngine\source\Library.Desktop\obj\x64\Debug\EventQueue.obj"
+         "C:\Dev\Cohort12-Private\Programming II\Final Project\Team A\FieaGameEngine\source\Library.Desktop\obj\x64\Debug\FloatXmlParseHelper.obj"
+         "C:\Dev\Cohort12-Private\Programming II\Final Project\Team A\FieaGameEngine\source\Library.Desktop\obj\x64\Debug\FooSharedData.obj"
+         "C:\Dev\Cohort12-Private\Programming II\Final Project\Team A\FieaGameEngine\source\Library.Desktop\obj\x64\Debug\GameClock.obj"
+         "C:\Dev\Cohort12-Private\Programming II\Final Project\Team A\FieaGameEngine\source\Library.Desktop\obj\x64\Debug\GameTime.obj"
+         "C:\Dev\Cohort12-Private\Programming II\Final Project\Team A\FieaGameEngine\source\Library.Desktop\obj\x64\Debug\IntegerXmlParseHelper.obj"
+         "C:\Dev\Cohort12-Private\Programming II\Final Project\Team A\FieaGameEngine\source\Library.Desktop\obj\x64\Debug\IXmlParseHelper.obj"
+         "C:\Dev\Cohort12-Private\Programming II\Final Project\Team A\FieaGameEngine\source\Library.Desktop\obj\x64\Debug\LevelConfigXmlParseHelper.obj"
+         "C:\Dev\Cohort12-Private\Programming II\Final Project\Team A\FieaGameEngine\source\Library.Desktop\obj\x64\Debug\LevelSharedData.obj"
+         "C:\Dev\Cohort12-Private\Programming II\Final Project\Team A\FieaGameEngine\source\Library.Desktop\obj\x64\Debug\MatrixXmlParseHelper.obj"
+         "C:\Dev\Cohort12-Private\Programming II\Final Project\Team A\FieaGameEngine\source\Library.Desktop\obj\x64\Debug\pch.obj"
+         "C:\Dev\Cohort12-Private\Programming II\Final Project\Team A\FieaGameEngine\source\Library.Desktop\obj\x64\Debug\Reaction.obj"
+         "C:\Dev\Cohort12-Private\Programming II\Final Project\Team A\FieaGameEngine\source\Library.Desktop\obj\x64\Debug\ReactionXmlParseHelper.obj"
+         "C:\Dev\Cohort12-Private\Programming II\Final Project\Team A\FieaGameEngine\source\Library.Desktop\obj\x64\Debug\Scope.obj"
+         "C:\Dev\Cohort12-Private\Programming II\Final Project\Team A\FieaGameEngine\source\Library.Desktop\obj\x64\Debug\Sector.obj"
+         "C:\Dev\Cohort12-Private\Programming II\Final Project\Team A\FieaGameEngine\source\Library.Desktop\obj\x64\Debug\SectorXmlParseHelper.obj"
+         "C:\Dev\Cohort12-Private\Programming II\Final Project\Team A\FieaGameEngine\source\Library.Desktop\obj\x64\Debug\SoundParser.obj"
+         "C:\Dev\Cohort12-Private\Programming II\Final Project\Team A\FieaGameEngine\source\Library.Desktop\obj\x64\Debug\SoundSharedData.obj"
+         "C:\Dev\Cohort12-Private\Programming II\Final Project\Team A\FieaGameEngine\source\Library.Desktop\obj\x64\Debug\SoundXmlParseHelper.obj"
+         "C:\Dev\Cohort12-Private\Programming II\Final Project\Team A\FieaGameEngine\source\Library.Desktop\obj\x64\Debug\StringXmlParseHelper.obj"
+         "C:\Dev\Cohort12-Private\Programming II\Final Project\Team A\FieaGameEngine\source\Library.Desktop\obj\x64\Debug\SymbolSharedData.obj"
+         "C:\Dev\Cohort12-Private\Programming II\Final Project\Team A\FieaGameEngine\source\Library.Desktop\obj\x64\Debug\TableSharedData.obj"
+         "C:\Dev\Cohort12-Private\Programming II\Final Project\Team A\FieaGameEngine\source\Library.Desktop\obj\x64\Debug\TableXmlParseHelper.obj"
+         "C:\Dev\Cohort12-Private\Programming II\Final Project\Team A\FieaGameEngine\source\Library.Desktop\obj\x64\Debug\TileXmlParseHelper.obj"
+         "C:\Dev\Cohort12-Private\Programming II\Final Project\Team A\FieaGameEngine\source\Library.Desktop\obj\x64\Debug\VectorXmlParseHelper.obj"
+         "C:\Dev\Cohort12-Private\Programming II\Final Project\Team A\FieaGameEngine\source\Library.Desktop\obj\x64\Debug\World.obj"
+         "C:\Dev\Cohort12-Private\Programming II\Final Project\Team A\FieaGameEngine\source\Library.Desktop\obj\x64\Debug\WorldState.obj"
+         "C:\Dev\Cohort12-Private\Programming II\Final Project\Team A\FieaGameEngine\source\Library.Desktop\obj\x64\Debug\WorldXmlParseHelper.obj"
+         "C:\Dev\Cohort12-Private\Programming II\Final Project\Team A\FieaGameEngine\source\Library.Desktop\obj\x64\Debug\XmlParseMaster.obj"
+         "C:\Dev\Cohort12-Private\Programming II\Final Project\Team A\FieaGameEngine\source\Library.Desktop\obj\x64\Debug\ZeroIncrementFunctor.obj"
+         Library.Desktop.vcxproj -> C:\Dev\Cohort12-Private\Programming II\Final Project\Team A\FieaGameEngine\source\Library.Desktop\bin\x64\Debug\Library.Desktop.lib
+     1>Done Building Project "C:\Dev\Cohort12-Private\Programming II\Final Project\Team A\FieaGameEngine\source\Library.Desktop\Library.Desktop.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:04.86
